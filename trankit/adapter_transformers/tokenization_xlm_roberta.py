@@ -138,10 +138,7 @@ class XLMRobertaTokenizer(PreTrainedTokenizer):
                 "pip install sentencepiece"
             )
             raise
-            
-        print(vocab_file)
-        print(str(vocab_file))
-
+           
         self.sp_model = spm.SentencePieceProcessor()
         self.sp_model.Load(str(vocab_file))
         self.vocab_file = vocab_file
