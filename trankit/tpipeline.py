@@ -121,7 +121,7 @@ class TPipeline:
         torch.cuda.empty_cache()
 
         # set embedding name
-        master_config.embedding_name = 'xlm-roberta-base' if 'embedding' not in training_config else training_config['embedding']
+        master_config.embedding_name = 'nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large'
         assert master_config.embedding_name in supported_embeddings, '{} has not been supported.\nSupported embeddings: {}'.format(
             master_config.embedding_name, supported_embeddings)
 
