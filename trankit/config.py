@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 class Config:
     def __init__(self):
-        self.embedding_name = 'xlm-roberta-base'
+        self.embedding_name = 'nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large'
         self.embedding_dropout = 0.3
         self.hidden_num = 300
         self.linear_dropout = 0.1
