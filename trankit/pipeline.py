@@ -41,7 +41,7 @@ def is_list_list_strings(input):
 
 
 class Pipeline:
-    def __init__(self, lang, cache_dir=None, gpu=True, embedding='xlm-roberta-base'):
+    def __init__(self, lang, cache_dir=None, gpu=True, embedding='nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large'):
         super(Pipeline, self).__init__()
         # auto detection of lang
         if lang == 'auto':
