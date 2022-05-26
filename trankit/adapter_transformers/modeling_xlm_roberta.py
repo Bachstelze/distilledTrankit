@@ -33,7 +33,7 @@ from .modeling_roberta import (
 logger = logging.getLogger(__name__)
 
 XLM_ROBERTA_PRETRAINED_MODEL_ARCHIVE_LIST = [
-    "nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large",
+    "mMiniLMv2-L12-H384-distilled-from-XLMR-Large",
     "xlm-roberta-base",
     "xlm-roberta-large",
     "xlm-roberta-large-finetuned-conll02-dutch",
