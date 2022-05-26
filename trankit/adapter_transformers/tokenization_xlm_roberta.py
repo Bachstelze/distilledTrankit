@@ -41,7 +41,7 @@ PRETRAINED_VOCAB_FILES_MAP = {
 }
 
 PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES = {
-    "nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large": 384,
+    "mMiniLMv2-L12-H384-distilled-from-XLMR-Large": 384,
     "xlm-roberta-base": 512,
     "xlm-roberta-large": 512,
     "xlm-roberta-large-finetuned-conll02-dutch": 512,
