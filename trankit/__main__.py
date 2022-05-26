@@ -90,11 +90,11 @@ parser.add_argument('--cpu', action='store_true',
                          'Example use:\n' + \
                          'python -m trankit [other options] --cpu\n'
                     )
-parser.add_argument('--embedding', default='nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large', type=str,
-                    choices=['nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large'],
-                    help='Multilingual embedding for trankit. Default: xlm-roberta-base.\n' + \
+parser.add_argument('--embedding', default='mMiniLMv2-L12-H384-distilled-from-XLMR-Large', type=str,
+                    choices=['mMiniLMv2-L12-H384-distilled-from-XLMR-Large'],
+                    help='Multilingual embedding for distilled trankit. Default: mMiniLMv2-L12-H384-distilled-from-XLMR-Larg.\n' + \
                          'Example use:\n' + \
-                         '-nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large: python -m trankit [other options] --embedding nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large\n'
+                         '-mMiniLMv2-L12-H384-distilled-from-XLMR-Large: python -m trankit [other options] --embedding nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large\n'
                     )
 parser.add_argument('--cache_dir', default='cache/trankit', type=str,
                     help='Location to store downloaded model files. Default: cache/trankit.\n' + \
