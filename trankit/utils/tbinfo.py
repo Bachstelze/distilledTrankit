@@ -1,4 +1,4 @@
-supported_embeddings = ['nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large']
+supported_embeddings = ['mMiniLMv2-L12-H384-distilled-from-XLMR-Large']
 
 saved_model_version = 'v1.0.0'
 
