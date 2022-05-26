@@ -24,7 +24,7 @@ from .configuration_roberta import RobertaConfig
 logger = logging.getLogger(__name__)
 
 XLM_ROBERTA_PRETRAINED_CONFIG_ARCHIVE_MAP = {
-    "nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large":"https://huggingface.co/nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large/raw/main/config.json",
+    "mMiniLMv2-L12-H384-distilled-from-XLMR-Large":"https://huggingface.co/nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large/raw/main/config.json",
     "xlm-roberta-base": "https://s3.amazonaws.com/models.huggingface.co/bert/xlm-roberta-base-config.json",
     "xlm-roberta-large": "https://s3.amazonaws.com/models.huggingface.co/bert/xlm-roberta-large-config.json",
     "xlm-roberta-large-finetuned-conll02-dutch": "https://s3.amazonaws.com/models.huggingface.co/bert/xlm-roberta-large-finetuned-conll02-dutch-config.json",
