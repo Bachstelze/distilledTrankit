@@ -11,7 +11,7 @@ class Base_Model(nn.Module):  # currently assuming the pretrained transformer is
         # xlmr encoder
         self.xlmr_dim = 384
         self.xlmr = XLMRobertaModel.from_pretrained(config.embedding_name,
-                                                    cache_dir="./distilled_config/config.json",
+                                                    cache_dir="../distilled_config/config.json",
                                                     output_hidden_states=True)
         self.xlmr_dropout = nn.Dropout(p=config.embedding_dropout)
         # add task adapters
