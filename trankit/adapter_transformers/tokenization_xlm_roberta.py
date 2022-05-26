@@ -30,7 +30,7 @@ VOCAB_FILES_NAMES = {"vocab_file": "sentencepiece.bpe.model"}
 
 PRETRAINED_VOCAB_FILES_MAP = {
     "vocab_file": {
-        "nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large":"https://huggingface.co/nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large/resolve/main/sentencepiece.bpe.model",
+        "mMiniLMv2-L12-H384-distilled-from-XLMR-Large":"https://huggingface.co/nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large/resolve/main/sentencepiece.bpe.model",
         "xlm-roberta-base": "https://s3.amazonaws.com/models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model",
         "xlm-roberta-large": "https://s3.amazonaws.com/models.huggingface.co/bert/xlm-roberta-large-sentencepiece.bpe.model",
         "xlm-roberta-large-finetuned-conll02-dutch": "https://s3.amazonaws.com/models.huggingface.co/bert/xlm-roberta-large-finetuned-conll02-dutch-sentencepiece.bpe.model",
